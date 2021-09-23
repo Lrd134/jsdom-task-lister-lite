@@ -19,9 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
       li.innerText = textArea.value;
       todoList.appendChild(li);
       li.appendChild(btn); 
-      event.preventDefault();
       textArea.value = "";
       addButtonListeners(btn);
+      event.preventDefault();
     }
   });
 
